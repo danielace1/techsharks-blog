@@ -1,5 +1,11 @@
+import Navbar from "./components/ui/Navbar";
+
 const App = () => {
-  return <h1 className="text-red-600">Blog Site </h1>;
+  return (
+    <div>
+      <Navbar />
+    </div>
+  );
 };
 
 export default App;
